@@ -1,4 +1,4 @@
-# MarketPeak ECommerce
+# Market Peak ECommerce
 This platform will feature product listing, a shopping cart and user authentication.
 
 ## Step 1 - Implement Version Control with Git
@@ -28,3 +28,24 @@ Rather than building a wesite from scratch, you can use pre-built debsite templa
 
 ### 1.3. Stage and Commit the Template to Git
 - Add you project files to your local repository staging area. `git .`
+- Set your git global configuration repository with your username and email address.
+
+    ```
+    git config --global user.name "YourUsername"
+    git config --global user.email "youremail@example.com"
+    ```
+- Commit your changes with a descriptive message of what you did.
+
+    `git commit -m "Initial commit with basic e-commerce site construction`
+
+### 1.4. Push the code to your Github repository
+
+Before we can push to github, we need to create a remote repository using the same name as the local repostory. Here's how to go about it.
+- Log into you [github](https://github.com) account.
+- Click on the '+' icona at the top-right corner, and select '**New repository**'.
+
+    ![](./img/create-new-repo.png)
+
+- Provide the name and description of the repository, and you're done with that.
+
+    ![](./img/repo-name.png)
